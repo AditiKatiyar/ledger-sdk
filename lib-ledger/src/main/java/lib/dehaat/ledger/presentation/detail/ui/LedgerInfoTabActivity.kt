@@ -1,4 +1,4 @@
-package lib.dehaat.ledger.detail.ui
+package lib.dehaat.ledger.presentation.detail.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -45,7 +45,7 @@ class LedgerInfoTabActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    DummyViewStrategy()
+                    AlignmentStrategy()
                 }
             }
         }
